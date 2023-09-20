@@ -1,0 +1,35 @@
+.header{
+    position: fixed;
+    top: 0;
+    /* background-color: red; */
+    z-index: 10;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+.header__nav--home{
+    justify-content: right;
+}
+.header__nav__home{
+    text-transform: capitalize;
+}
+.header--project{
+    /* border-bottom: 1px solid white; */
+    background-color: rgb(10,10,10);
+    
+}
+
+.header__nav__list{
+    display: flex;
+    gap: 4rem;
+    text-transform: capitalize;
+}
+

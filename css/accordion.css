@@ -1,0 +1,74 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the accordion items */
+.accordion {
+    width: 100%;
+    /* Adjust this as needed */
+    /* margin: 20px auto; */
+}
+
+.accordion-item {
+    /* border-radius: 5px; */
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(125, 125, 125);
+}
+
+.accordion-button {
+    width: 100%;
+    /* text-align: left; */
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.accordion-button__icon{
+    width: 10px;
+    height: 10px;
+    background-color: rebeccapurple;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+    padding-bottom: 1rem;
+    overflow: hidden;
+        /* Hide content initially */
+        /* Smooth transition effect */
+        max-height: 0;
+        /* Initially hidden */
+        transition: all 0.3s ease-in-out;
+}
+
+/* Style for the open accordion item */
+.accordion-item.open .accordion-content {
+    max-height: 200px;
+    transition: all 0.3s ease-in-out;
+    /* Adjust the max height as needed */
+}
+
+.accordion-item.open .accordion-content {
+    display: block;
+    /* transition: all 0.5s ease-in-out;  */
+}
+
+.arrow-icon {
+    /* transition: transform 0.3s ease; */
+}
+
+/* Rotate the arrow icon when the accordion item is open */
+.accordion-item.open .arrow-icon {
+    transform: rotate(-180deg);
+}

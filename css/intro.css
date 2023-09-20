@@ -1,0 +1,37 @@
+.intro{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(10, 10, 10);
+}
+.intro__text{
+    position: absolute;
+    left: 10vw;
+    top: 10vh;
+}
+
+.intro__text__heading{
+    font-size: 6rem;
+}
+.intro__text__heading1{
+    font-size: 8rem;
+    font-weight: 200;
+}
+.intro__text__heading2{
+    font-size: 8rem;
+    font-weight: 200;
+    opacity: 0;
+}
+.intro__text__heading3{
+    opacity: 0;
+    position: sticky;
+    top: 2rem;
+    font-size: 8rem;
+    font-weight: 200;
+}
+
+.intro__scroll{
+    position: absolute;
+    right: 10vw;
+    bottom: 10vh;
+}
+
