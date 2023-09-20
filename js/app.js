@@ -3,7 +3,6 @@ gsap.registerPlugin(ScrollTrigger);
 const timeline = gsap.timeline({
   scrollTrigger: {
     trigger: ".intro", // Start the animation when #box1 enters the viewport
-    // markers: true,
     scrub: 1,
     start: "top 0%",
     end: "bottom 0%",
@@ -84,7 +83,6 @@ var timeline3 = gsap.timeline({
     start: "top 0",
     end: "bottom 0",
     scrub: "1",
-    markers: true
   },
 
 });
