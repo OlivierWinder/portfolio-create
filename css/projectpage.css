@@ -10,7 +10,7 @@
 
 .project__info{
     /* background-color: red; */
-    border-right: 1px solid rgb(50, 50, 50);
+    border-right: 1px solid rgb(65, 65, 65);
     min-height: 100%;
     max-height: 100vh;
     position: fixed;
@@ -44,7 +44,6 @@
 }
 .project__info__intro__subheading{
     font-size: 1.1rem;
-    font-weight: 200;
 }
 .project__info__text{
     margin-top: 2rem;
