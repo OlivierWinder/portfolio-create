@@ -14,6 +14,7 @@ body {
     width: 100%;
     /* Adjust this as needed */
     /* margin: 20px auto; */
+    font-weight: 200;
 }
 
 .accordion-item {

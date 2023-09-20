@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(10, 10, 10);
+}
 /* fonts */
 .primary-font{
     font-family: 'Montserrat', sans-serif;

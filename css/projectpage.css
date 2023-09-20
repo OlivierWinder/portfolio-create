@@ -41,9 +41,11 @@
 .project__info__intro__heading{
     line-height: 1;
     font-weight: 200;
+    font-size: 3rem;
 }
 .project__info__intro__subheading{
     font-size: 1.1rem;
+    font-weight: 200;
 }
 .project__info__text{
     margin-top: 2rem;
@@ -63,4 +65,9 @@
     right: 0;
     top: 0;
     padding: 2rem;
+}
+
+.image__img{
+    width: 100%;
+    height: auto;
 }
